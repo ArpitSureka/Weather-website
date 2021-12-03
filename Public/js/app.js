@@ -11,7 +11,7 @@ form.addEventListener('submit', (e)=>{
     messageOne.textContent = 'Loading ...'
     messageTwo.textContent = ''
 
-    const address = 'http://localhost:3000/weather?address=' + document.querySelector('input').value
+    const address = '/weather?address=' + document.querySelector('input').value
     
     fetch(address).then((response)=>{
         response.json().then((data)=>{
