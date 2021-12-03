@@ -7,7 +7,7 @@ const weatherinfo = require('./Utils/weatherinfo.js').weatherinfo
 const app = express()
 const PORT = process.env.PORT || 3000
 
-const publicDirectortPath = path.join(__dirname,'../public')
+const publicDirectortPath = path.join(__dirname,'../Public')
 const viewsPath = path.join(__dirname,'../templates/views')
 const partialsPath = path.join(__dirname,'../templates/partials')
 
